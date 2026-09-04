@@ -1,0 +1,17 @@
+{
+  "name": "poli-text-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Studio di kinetic typography per la campagna Politecnico di Torino: un solo file HTML, GSAP, export WebP e sequenze PNG.",
+  "scripts": {
+    "test": "cd tests && python3 func.py && python3 wipe.py && python3 check.py && python3 repro.py"
+  },
+  "devDependencies": {
+    "@fontsource/anton": "^5.3.0",
+    "@fontsource/bebas-neue": "^5.3.0",
+    "@fontsource/poppins": "^5.3.0",
+    "gsap": "^3.13.0",
+    "html2canvas": "^1.4.1",
+    "jszip": "^3.10.1"
+  }
+}
